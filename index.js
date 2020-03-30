@@ -1,4 +1,4 @@
-var katzDeliLine = [];
+
 //this var is declared globally and can be used in any function
 
 
@@ -6,6 +6,7 @@ var katzDeliLine = [];
 "christy"= the new name to be added to the array */
 
 function takeANumber(katzDeliLine, name){
+  var katzDeliLine = [];
   katzDeliLine.push(name);
   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."  //concatenation
 }
