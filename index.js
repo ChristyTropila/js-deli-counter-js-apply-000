@@ -70,5 +70,4 @@ if(katzDeliLine.length===0){
   takeANumber(katzDeliLine, "Emily");
 
   console.log(katzDeliLine);
-  currentLine(katzDeliLine);
  nowServing(katzDeliLine);
