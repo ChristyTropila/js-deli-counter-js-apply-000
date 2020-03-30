@@ -16,7 +16,7 @@ function takeANumber(katzDeliLine, name){
 
 
 
-
+//This function will check to see if there is anybody in line, if there is, return who is currently be served, and then remove this person from the array
 function nowServing(katzDeliLine){
 /*  var i = 0;
   while(i<=katzDeliLine.length){
@@ -64,10 +64,10 @@ if(katzDeliLine.length===0){
   }
 
 
-
+/*
   takeANumber(katzDeliLine,"Christy");
   takeANumber(katzDeliLine,"Joby");
   takeANumber(katzDeliLine, "Emily");
-
   console.log(katzDeliLine);
- nowServing(katzDeliLine);
+
+  */
