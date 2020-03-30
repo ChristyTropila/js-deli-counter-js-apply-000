@@ -62,3 +62,11 @@ if(katzDeliLine.length===0){
   return "The line is currently:"  + line;
 }
   }
+
+
+
+  takeANumber(katzDeliLine,"Christy");
+  takeANumber(katzDeliLine,"Joby");
+  takeANumber(katzDeliLine, "Emily");
+
+  console.log(katzDeliLine);
