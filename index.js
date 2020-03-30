@@ -40,10 +40,10 @@ function nowServing(katzDeliLine){
 
 
 
+
 var line = [];
 //global variable in case we need to use this variable in outside functions in the future
 function currentLine(katzDeliLine){
-
 /*var i =0;
 while(i<katzDeliLine.length){
   line.push(` `+[i+1]+`. `  + katzDeliLine[i]);
@@ -52,7 +52,7 @@ while(i<katzDeliLine.length){
 
 //refactoring; another way to write this is using a for loop
 for(let i=0; i<katzDeliLine.length; i++){  //this loop will go through all the people in the katzDeliLine and add them to a new array "line" and tell us their place in line with a number
-  line.push(` `+[i+1]+`. `  + katzDeliLine[i]); //[i+1] adds one each time through the loop so that each person in line is assigned a new number
+  line.push(' '+[i+1]+'. '  + katzDeliLine[i]); //[i+1] adds one each time through the loop so that each person in line is assigned a new number
 }
 
 //this condition checks to see if there is anybody in the katzDeliLine, if so, they will be returned as a string that was created pushing each customer to the new array "line"
