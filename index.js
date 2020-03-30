@@ -63,10 +63,6 @@ if(katzDeliLine.length===0){
   }
 
 
-/*
-  takeANumber(katzDeliLine,"Christy");
-  takeANumber(katzDeliLine,"Joby");
-  takeANumber(katzDeliLine, "Emily");
-  console.log(katzDeliLine);
 
-  */
+  takeANumber(katzDeliLine,"Christy");
+
