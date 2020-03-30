@@ -70,4 +70,5 @@ if(katzDeliLine.length===0){
   takeANumber(katzDeliLine, "Emily");
 
   console.log(katzDeliLine);
-  console.log(takeANumber.toString());
+var new = takeANumber()();
+console.log(new);
