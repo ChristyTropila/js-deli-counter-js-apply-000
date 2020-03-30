@@ -41,9 +41,8 @@ function nowServing(katzDeliLine){
 
 
 
-var line = [];
-//global variable in case we need to use this variable in outside functions in the future
 function currentLine(katzDeliLine){
+var line = []; 
 /*var i =0;
 while(i<katzDeliLine.length){
   line.push(` `+[i+1]+`. `  + katzDeliLine[i]);
