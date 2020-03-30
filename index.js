@@ -42,7 +42,7 @@ function nowServing(katzDeliLine){
 
 
 function currentLine(katzDeliLine){
-var line = []; 
+var line = [];
 /*var i =0;
 while(i<katzDeliLine.length){
   line.push(` `+[i+1]+`. `  + katzDeliLine[i]);
