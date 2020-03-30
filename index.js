@@ -71,3 +71,4 @@ if(katzDeliLine.length===0){
 
   console.log(katzDeliLine);
   currentLine(katzDeliLine);
+ nowServing(katzDeliLine);
