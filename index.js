@@ -5,7 +5,7 @@ var katzDeliLine = [];
 /*this function is called with 2 parameters . ex. takeANumber(katzDeliLine, "Christy") . katzDeliLine=the current line of people,
 "christy"= the new name to be added to the array */
 
-function takeANumber(katzDeliLine, name){
+function takeANumber(x, name){
   katzDeliLine.push(name);
   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line."  //concatenation
 }
